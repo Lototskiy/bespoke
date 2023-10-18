@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Text">
+    <title>D&amp;S Bespoke</title>
+    <meta name="theme-color" content="#cccccc"><link rel="preload" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"></noscript>
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"></noscript>
+  <link href="assets/css/app.css?v=1697606058783" rel="stylesheet"></head>
+  <body>
+<div class="preloader">
+  <div class="preloader-logo"><img src="assets/images/svg/Logo-white.svg" alt=""></div>
+  <div class="preloader-line">
+    <div class="preloader-loading"></div>
+  </div>
+</div>
+<script>
+  let preloader = document.querySelector('.preloader');
+  if (!(document.referrer.indexOf('ds') == -1) || !(location.href.indexOf('localhost') == -1)) {
+  	preloader.remove();
+  }
+  
+  
+  setTimeout(function () {
+  	if (preloader) {
+  		setTimeout(function () {
+  			preloader.classList.add('preloader--hide');
+  		}, 2000);
+  
+  		setTimeout(function () {
+  			preloader.style.display = 'none';
+  		}, 3500);
+  	}
+  }, 500);
+</script>
+<header class="header">
+  <div class="center-wrap">
+    <div class="header__wrap"><a class="header__logo single-anchors img-wrap" href="index.html#home" aria-label="Logo">
+        <div><img src="assets/images/svg/Logo.svg" alt=""></div></a>
+      <nav class="header__nav mobile--hide">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a class="header__nav-link" href="/about.html">About us</a></li>
+          <li class="header__nav-item header__nav-item--drop">
+            <div class="header__nav-box">
+              <p class="header__nav-link">Our services</p>
+              <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 7L8 10L4 7" stroke-width="1.2" stroke-linecap="square"></path>
+              </svg>
+            </div>
+            <div class="header__drop">
+              <ul class="header__drop-list">
+                <li class="header__drop-item"> <a class="header__drop-link" href="/services">Basic Check-Up Programs   </a></li>
+                <li class="header__drop-item"> <a class="header__drop-link" href="/services">Genetic Testing</a></li>
+                <li class="header__drop-item"> <a class="header__drop-link" href="/services">Anti-Aging</a></li>
+                <li class="header__drop-item"> <a class="header__drop-link" href="/services">DNA</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__nav-item"><a class="header__nav-link" href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__right mobile--hide">
+        <div class="header__lang">
+          <div class="header__lang-row">
+            <div class="header__lang-title">EN</div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+              <path d="M12 7L8 10L4 7" stroke-width="1.2" stroke-linecap="square"></path>
+            </svg>
+          </div>
+          <div class="header__lang-drop"> 
+            <div class="header__lang-list"> <a class="header__lang-link" href="#">En </a><a class="header__lang-link" href="#">Ru</a></div>
+          </div>
+        </div>
+        <div class="header__btn"><a class="btn single-anchors" href="index.html#contact-bl">Contact us</a></div>
+      </div>
+      <div class="header__burger desktop--hide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+          <path d="M3 12H21M3 6H21M9 18H21" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</header>
+    <main>
+<section class="main-screen at-block" id="home">
+  <picture>
+    <source srcset="assets/images/png/main-screen__bg.webp" type="image/webp"><img class="main-screen__bg" src="assets/images/png/main-screen__bg.png" alt="">
+  </picture>
+  <div class="center-wrap">
+    <div class="main-screen__wrap at-element" data-at-name="atCustom" data-at-duration="2" data-at-direction="y" data-at-delay="0" data-at-distance="50">
+      <div class="main-screen__info">• Medical Concierge •</div>
+      <h2 class="simple-title simple-title--center">D&S Bespoke</h2>
+      <div class="content"> 
+        <p>Acting as a bridge between patients and the healthcare system, offers a specialized healthcare service that aims to provide patients with personalized attention, seamless coordination, and exclusive access to a wide range of medical resources around the world.</p>
+      </div>
+      <div class="main-screen__btns"> <a class="btn" href="#">Contact us</a><a class="btn btn--empty" href="#">Learn More</a></div>
+    </div>
+  </div>
+</section>
+<section class="about-bl">
+  <div class="default-bl__row default-bl__row--grey">
+    <div class="left">
+      <div class="img-wrap img-parallax img-load">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/about-bl-img1.webp" type="image/webp"><img src="assets/images/png/about-bl-img1.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <h2 class="simple-title">About Us</h2>
+      <div class="content"> 
+        <p>D&S BESPOKE was founded in London by Diana Dementieva and Svetlana Zakharova.</p>
+        <p>With their combined expertise and passion, they have created D&S Bespoke, a symbol of excellence in personalized healthcare management.</p>
+        <p>We use a tailored approach to healthcare management and provide our clients with comprehensive support throughout their medical journey.</p>
+        <p>We work with premium clinics around the world.</p>
+      </div>
+      <div class="about-bl__btn"> 
+        <div class="btn btn--border">Learn more</div>
+      </div>
+    </div>
+  </div>
+</section>
+      <section class="benefits padd benefits--home">
+        <div class="center-wrap"> 
+          <div class="benefits__top">
+            <h2 class="simple-title">Benefits of Using <br> <span class="color">D&S Bespoke</span> Service</h2>
+            <div class="slider-arrow">
+              <div class="swiper-button-prev">
+                <svg viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M18 8H2M2 8L8 2M2 8L8 14" stroke-width="2" stroke-linecap="square"></path>
+                </svg>
+              </div>
+              <div class="swiper-button-next">
+                <svg viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 8H17M17 8L11 2M17 8L11 14" stroke-width="2" stroke-linecap="square"></path>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="benefits-slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="benefits-slider__item">
+                  <div class="benefits-slider__item-icon img-wrap">
+                    <div><img src="assets/images/svg/benefits-slider__item-icon1.svg" alt=""></div>
+                  </div>
+                  <div class="benefits-slider__item-title">Totally Free Service for Uur Clients</div>
+                  <div class="content"> 
+                    <p>Our priority is your well-being.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="benefits-slider__item">
+                  <div class="benefits-slider__item-icon img-wrap">
+                    <div><img src="assets/images/svg/benefits-slider__item-icon2.svg" alt=""></div>
+                  </div>
+                  <div class="benefits-slider__item-title">Comprehensive Support</div>
+                  <div class="content"> 
+                    <p>From managing medical appointments to organizing accommodations.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="benefits-slider__item">
+                  <div class="benefits-slider__item-icon img-wrap">
+                    <div><img src="assets/images/svg/benefits-slider__item-icon3.svg" alt=""></div>
+                  </div>
+                  <div class="benefits-slider__item-title">Enhanced Access</div>
+                  <div class="content"> 
+                    <p>We have extensive networks of healthcare professionals, specialists, and facilities to optimize our clients' access to top-tier medical experts.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="benefits-slider__item">
+                  <div class="benefits-slider__item-icon img-wrap">
+                    <div><img src="assets/images/svg/benefits-slider__item-icon4.svg" alt=""></div>
+                  </div>
+                  <div class="benefits-slider__item-title">Personalized Care</div>
+                  <div class="content"> 
+                    <p>Our clients receive individualized attention that addresses their specific healthcare concerns.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="benefits-slider__item">
+                  <div class="benefits-slider__item-icon img-wrap">
+                    <div><img src="assets/images/svg/benefits-slider__item-icon5.svg" alt=""></div>
+                  </div>
+                  <div class="benefits-slider__item-title">Health Advocacy</div>
+                  <div class="content"> 
+                    <p>We help clients understand their treatment options, provide them with unbiased information, and guide them in making informed choices about their health.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-pagination desktop--hide">
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </section>
+<section class="services-bl">
+  <div class="default-bl__row default-bl__row--green default-bl__row--reverse">
+    <div class="left">
+      <div class="img-wrap img-parallax img-load">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/services-bl-img.webp" type="image/webp"><img src="assets/images/png/services-bl-img.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <h2 class="simple-title">Discover <br> Our Services</h2>
+      <div class="content"> 
+        <p>With a comprehensive range of medical directions and travel support, we are here to provide you with the confidence to make informed decisions and embark on a worry-free journey towards better health.</p>
+      </div>
+      <div class="services-bl__links"> <a class="services-bl__links-item" href="#">
+          <p>Medical Directions</p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+            <path d="M7 21L21 7M21 7H10.5M21 7V17.5" stroke-width="2" stroke-linecap="square"></path>
+          </svg></a><a class="services-bl__links-item" href="#">
+          <p>Travel Support</p>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+            <path d="M7 21L21 7M21 7H10.5M21 7V17.5" stroke-width="2" stroke-linecap="square"></path>
+          </svg></a></div>
+    </div>
+  </div>
+</section>
+<section class="reviews padd">
+  <div class="reviews__bg"> 
+    <picture>
+      <source srcset="assets/images/png/reviews-bg-mob.webp" type="image/webp" media="(max-width: 600px)">
+      <source srcset="assets/images/png/reviews-bg.webp" type="image/webp"><img src="assets/images/png/reviews-bg.png" alt="">
+    </picture>
+  </div>
+  <div class="center-wrap"> 
+    <div class="reviews__top"> 
+      <h2 class="simple-title">What Our Clients <br> Say About Us</h2>
+      <div class="slider-arrow slider-arrow--white">
+        <div class="swiper-button-prev">
+          <svg viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18 8H2M2 8L8 2M2 8L8 14" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+        </div>
+        <div class="swiper-button-next">
+          <svg viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M1 8H17M17 8L11 2M17 8L11 14" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="reviews-slider">
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="reviews-slider__item"> 
+            <div class="reviews-slider__item-top"> 
+              <div class="reviews-slider__item-info">
+                <div class="reviews-slider__item-name">Paityn Lubin</div>
+                <div class="reviews-slider__item-descr">paityn_lubin</div>
+              </div>
+              <div class="reviews-slider__item-rating">
+                <div class="star-rating">
+                  <div class="star-rating__wrap">
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content"> 
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="reviews-slider__item"> 
+            <div class="reviews-slider__item-top"> 
+              <div class="reviews-slider__item-info">
+                <div class="reviews-slider__item-name">Paityn Lubin</div>
+                <div class="reviews-slider__item-descr">paityn_lubin</div>
+              </div>
+              <div class="reviews-slider__item-rating">
+                <div class="star-rating">
+                  <div class="star-rating__wrap">
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content"> 
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="reviews-slider__item"> 
+            <div class="reviews-slider__item-top"> 
+              <div class="reviews-slider__item-info">
+                <div class="reviews-slider__item-name">Paityn Lubin</div>
+                <div class="reviews-slider__item-descr">paityn_lubin</div>
+              </div>
+              <div class="reviews-slider__item-rating">
+                <div class="star-rating">
+                  <div class="star-rating__wrap">
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                    <div class="star-rating__item star-rating__item--active">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 12" fill="none">
+                        <path d="M6.64786 0L8.80734 3.68183L13.0008 4.58359L10.142 7.76085L10.5742 12L6.64786 10.2818L2.72153 12L3.15374 7.76085L0.294922 4.58359L4.48838 3.68183L6.64786 0Z"></path>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content"> 
+              <p>“Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="slider-pagination">
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+<section class="contact-bl" id="contact-bl">
+  <div class="default-bl__row default-bl__row--white default-bl__row--reverse">
+    <div class="left">
+      <form class="inputs" action="/action_page.php" autocomplete="off">
+        <div class="inputs__field-wrap">
+          <input class="inputs__field" type="text" name="text" placeholder="Write your name" autocomplete="off" required="" minlength="2">
+          <label class="inputs__label">Full name</label><span class="inputs__field-error">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+              <path d="M8.00065 5.3335V8.00016M8.00065 10.6668H8.00732M14.6673 8.00016C14.6673 11.6821 11.6825 14.6668 8.00065 14.6668C4.31875 14.6668 1.33398 11.6821 1.33398 8.00016C1.33398 4.31826 4.31875 1.3335 8.00065 1.3335C11.6825 1.3335 14.6673 4.31826 14.6673 8.00016Z" stroke="#E41111" stroke-width="1.2" stroke-linecap="square" stroke-linejoin="round"></path>
+            </svg>Input text</span>
+        </div>
+        <div class="inputs__field-wrap">
+          <input class="inputs__field" type="email" name="email" placeholder="name@gmail.com" autocomplete="off" required="">
+          <label class="inputs__label">e-mail</label>
+        </div>
+        <div class="inputs__field-wrap">
+          <input class="inputs__field" type="tel" name="tel" placeholder="+00 (000) 000 00 00" autocomplete="off">
+          <label class="inputs__label">Phone</label>
+        </div>
+        <div class="inputs__field-wrap inputs__field-wrap--textarea">
+          <textarea class="inputs__field" name="textarea" placeholder="Your message" required></textarea>
+          <label class="inputs__label">Request</label>
+        </div>
+        <div class="inputs__btn">
+          <button class="btn" type="submit">send request</button>
+        </div>
+      </form>
+    </div>
+    <div class="right">
+      <h2 class="simple-title">Need Assistance?<br> Get in Contact!</h2>
+      <div class="content"> 
+        <p>Please feel free to reach out to our dedicated team through the contact details provided below, or you can simply fill out the request form and we will respond shortly.</p>
+        <p>We value your well-being, and we are eager to assist you with your healthcare needs.</p>
+      </div>
+      <div class="contact-bl__bottom"> 
+        <div class="contact-bl__bottom-title">Contact us directly at:</div>
+        <div class="contact-bl__bottom-box"> <a class="contact-bl__bottom-link" href="mailto:ds@dsbespoke.com"> 
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+              <path d="M2 12C2 8.22876 2 6.34315 3.17157 5.17157C4.34315 4 6.22876 4 10 4H14C17.7712 4 19.6569 4 20.8284 5.17157C22 6.34315 22 8.22876 22 12C22 15.7712 22 17.6569 20.8284 18.8284C19.6569 20 17.7712 20 14 20H10C6.22876 20 4.34315 20 3.17157 18.8284C2 17.6569 2 15.7712 2 12Z" stroke="#45454A" stroke-width="2" stroke-linecap="square"></path>
+              <path d="M6 9L8.1589 10.7991C9.99553 12.3296 10.9139 13.0949 12 13.0949C13.0861 13.0949 14.0045 12.3296 15.8411 10.7991L18 9" stroke="#45454A" stroke-width="2" stroke-linecap="square"></path>
+            </svg>
+            <p>ds@dsbespoke.com</p></a><a class="contact-bl__bottom-link" href="tel:447780466305"> 
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+              <path d="M15.5562 13.9062L15.1007 14.359C15.1007 14.359 14.0181 15.4355 11.0631 12.4972C8.10812 9.55901 9.1907 8.48257 9.1907 8.48257L9.47752 8.19738C10.1841 7.49484 10.2507 6.36691 9.63424 5.54348L8.37326 3.85908C7.61028 2.83992 6.13596 2.70529 5.26145 3.57483L3.69185 5.13552C3.25823 5.56668 2.96765 6.12559 3.00289 6.74561C3.09304 8.33182 3.81071 11.7447 7.81536 15.7266C12.0621 19.9492 16.0468 20.117 17.6763 19.9651C18.1917 19.9171 18.6399 19.6546 19.0011 19.2954L20.4217 17.883C21.3806 16.9295 21.1102 15.2949 19.8833 14.628L17.9728 13.5894C17.1672 13.1515 16.1858 13.2801 15.5562 13.9062Z" stroke="#45454A" stroke-width="2" stroke-linecap="round"></path>
+            </svg>
+            <p>+44 7780 466305</p></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__top-wrap">
+      <div class="left"><a class="footer__logo single-anchors img-wrap" href="index.html#home" aria-label="Logo">
+          <div><img src="assets/images/svg/Logo2.svg" alt=""></div></a>
+        <div class="footer__info"> 
+          <div class="footer__info-text">D&S BESPOKE <br> <span>MEDICAL CONCIERGE</span></div>
+          <div class="footer__socials">
+            <div class="footer__socials-title">Follow us:</div>
+            <div class="socials"><a class="socials__link" href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                  <path d="M13.7456 13.7981V23H9.51479V13.7899H6V10.0555H9.51479V8.69675C9.51479 3.65237 11.622 1 16.0806 1C17.4475 1 17.7892 1.21967 18.5377 1.39867V5.09246C17.6997 4.94601 17.4638 4.86465 16.5932 4.86465C15.5599 4.86465 15.0067 5.15754 14.5022 5.73521C13.9978 6.31287 13.7456 7.31361 13.7456 8.74556V10.0636H18.5377L17.2522 13.7981H13.7456Z" stroke-width="2"></path>
+                </svg></a><a class="socials__link" href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                  <path d="M19.3228 23H4.67721C2.65339 23 1 21.3466 1 19.3228V4.67721C1 2.65339 2.65339 1 4.67721 1H19.3228C21.3466 1 23 2.65339 23 4.67721V19.3228C23 21.3556 21.3556 23 19.3228 23Z" stroke-width="2"></path>
+                  <path d="M8.464 15.536C9.408 16.48 10.664 17 12 17C13.336 17 14.584 16.48 15.536 15.536C16.48 14.592 17 13.336 17 12C17 10.664 16.48 9.408 15.536 8.464C14.592 7.52 13.336 7 12 7C10.664 7 9.408 7.52 8.464 8.464C7.52 9.408 7 10.664 7 12C7 13.336 7.52 14.592 8.464 15.536Z" stroke-width="2"></path>
+                  <path d="M18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7Z" stroke-width="2"></path>
+                </svg></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <nav class="footer__nav"> 
+          <ul class="footer__nav-list"> 
+            <li class="footer__nav-item"> <a class="footer__nav-link" href="#" target="_blank">our Services</a></li>
+            <li class="footer__nav-item"> <a class="footer__nav-link" href="#" target="_blank">Terms of Use</a></li>
+            <li class="footer__nav-item"> <a class="footer__nav-link" href="#" target="_blank">Privacy Policy</a></li>
+          </ul>
+        </nav>
+        <div class="footer__contact">
+          <div class="footer__contact-title">Contact us directly at: </div>
+          <div class="footer__contact-box"><a class="footer__contact-link" href="mailto:ds@dsbespoke.com" aria-label="mailto">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M2 12C2 8.22876 2 6.34315 3.17157 5.17157C4.34315 4 6.22876 4 10 4H14C17.7712 4 19.6569 4 20.8284 5.17157C22 6.34315 22 8.22876 22 12C22 15.7712 22 17.6569 20.8284 18.8284C19.6569 20 17.7712 20 14 20H10C6.22876 20 4.34315 20 3.17157 18.8284C2 17.6569 2 15.7712 2 12Z" stroke="#EFEFF0" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M6 9L8.1589 10.7991C9.99553 12.3296 10.9139 13.0949 12 13.0949C13.0861 13.0949 14.0045 12.3296 15.8411 10.7991L18 9" stroke="#EFEFF0" stroke-width="2" stroke-linecap="square"></path>
+              </svg>
+              <p>ds@dsbespoke.com</p></a><a class="footer__contact-link" href="tel:447780466305" aria-label="Tel">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M15.5562 13.9062L15.1007 14.359C15.1007 14.359 14.0181 15.4355 11.0631 12.4972C8.10812 9.55901 9.1907 8.48257 9.1907 8.48257L9.47752 8.19738C10.1841 7.49484 10.2507 6.36691 9.63424 5.54348L8.37326 3.85908C7.61028 2.83992 6.13596 2.70529 5.26145 3.57483L3.69185 5.13552C3.25823 5.56668 2.96765 6.12559 3.00289 6.74561C3.09304 8.33182 3.81071 11.7447 7.81536 15.7266C12.0621 19.9492 16.0468 20.117 17.6763 19.9651C18.1917 19.9171 18.6399 19.6546 19.0011 19.2954L20.4217 17.883C21.3806 16.9295 21.1102 15.2949 19.8833 14.628L17.9728 13.5894C17.1672 13.1515 16.1858 13.2801 15.5562 13.9062Z" stroke="#EFEFF0" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+              <p>+44 7780 466305</p></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="center-wrap">
+      <div class="footer__copyr">© 2023 D&S Bespoke. All Rights Reserved</div>
+    </div>
+  </div>
+</footer>
+<div class="mobile-menu">
+  <div class="mobile-menu__wrap mobile-menu__wrap--top">
+    <div class="center-wrap">
+      <div class="mobile-menu__top"><a class="mobile-menu__logo img-wrap" href="index.html#home">
+          <div><img src="assets/images/svg/Logo.svg" alt=""></div></a>
+        <div class="mobile-menu__close">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.75 5.25L5.25 18.75" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M18.75 18.75L5.25 5.25" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+      </div>
+      <nav class="mobile-menu__nav">
+        <ul class="mobile-menu__nav-list">
+          <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="/about.html">ABOUT US</a></li>
+          <li class="mobile-menu__nav-item mobile-menu__nav-item--drop"><a class="mobile-menu__nav-link" href="/services.html">OUR SERVICES</a>
+            <div class="mobile-menu__drop">
+              <div class="mobile-menu__drop-list"><a class="mobile-menu__drop-link" href="#">Plastic Surgery</a><a class="mobile-menu__drop-link" href="#">Check-Up Programs</a><a class="mobile-menu__drop-link" href="#">Cancer Treatment</a></div>
+            </div>
+          </li>
+          <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu__lang"> <a class="mobile-menu__lang-link mobile-menu__lang-link--active" href="#">EN </a><a class="mobile-menu__lang-link" href="#">Ru</a></div>
+      <div class="mobile-menu__btn">
+        <div class="btn">CONTACT US</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup-wrap" id="thank-you">
+  <div class="popup">
+    <div class="popup__close" onclick="close_popup('thank-you')">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.75 5.25L5.25 18.75" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+        <path d="M18.75 18.75L5.25 5.25" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+      </svg>
+    </div>
+    <div class="popup__inner">
+      <div class="popup__simple-title simple-title simple-title--center">Спасибо!</div>
+      <div class="popup__content content"> 
+        <p>Ваша заявка успешно отправлена.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup-wrap" id="before-after">
+  <div class="popup">
+    <div class="popup__close" onclick="close_popup('before-after')">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.75 5.25L5.25 18.75" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+        <path d="M18.75 18.75L5.25 5.25" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+      </svg>
+    </div>
+    <div class="popup__inner">
+      <div class="before-after__slider">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="before-after__slider-item">
+                <div class="img-wrap">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/before-after__slider1.webp" type="image/webp"><img src="assets/images/png/before-after__slider1.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="before-after__slider-title">Lorem Ipsum Dolor Sit Amet</div>
+                <div class="content">
+                  <p>Pellentesque suscipit fringilla libero eu ullamcorper. Cras risus eros, faucibus sit amet augue id, tempus pellentesque eros. In imperdiet tristique tincidunt. Integer lobortis lorem lorem, id accumsan arcu tempor id. Suspendisse vitae accumsan massa. Duis porttitor, mauris et faucibus sollicitudin.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="before-after__slider-item">
+                <div class="img-wrap">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/before-after__slider1.webp" type="image/webp"><img src="assets/images/png/treatment-img26.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="before-after__slider-title">Lorem Ipsum Dolor Sit Amet</div>
+                <div class="content">
+                  <p>Pellentesque suscipit fringilla libero eu ullamcorper. Cras risus eros, faucibus sit amet augue id, tempus pellentesque eros. In imperdiet tristique tincidunt. Integer lobortis lorem lorem, id accumsan arcu tempor id. Suspendisse vitae accumsan massa. Duis porttitor, mauris et faucibus sollicitudin.</p>
+                  <p>Pellentesque suscipit fringilla libero eu ullamcorper. Cras risus eros, faucibus sit amet augue id, tempus pellentesque eros. In imperdiet tristique tincidunt. Integer lobortis lorem lorem, id accumsan arcu tempor id. Suspendisse vitae accumsan massa. Duis porttitor, mauris et faucibus sollicitudin.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="slider-arrow">
+          <div class="swiper-button-prev">
+            <svg viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 8H2M2 8L8 2M2 8L8 14" stroke-width="2" stroke-linecap="square"></path>
+            </svg>
+          </div>
+          <div class="swiper-button-next">
+            <svg viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 8H17M17 8L11 2M17 8L11 14" stroke-width="2" stroke-linecap="square"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/app.js?v=1697606052546"></script></body>
+</html>

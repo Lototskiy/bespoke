@@ -1,0 +1,1328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="description" content="Text">
+    <title>Check-Up Programs</title>
+    <meta name="theme-color" content="#cccccc"><link rel="preload" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"></noscript>
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/css/swiper.min.css"></noscript>
+  <link href="assets/css/app.css?v=1697606058783" rel="stylesheet"></head>
+  <body>
+<div class="preloader">
+  <div class="preloader-logo"><img src="assets/images/svg/Logo-white.svg" alt=""></div>
+  <div class="preloader-line">
+    <div class="preloader-loading"></div>
+  </div>
+</div>
+<script>
+  let preloader = document.querySelector('.preloader');
+  if (!(document.referrer.indexOf('ds') == -1) || !(location.href.indexOf('localhost') == -1)) {
+  	preloader.remove();
+  }
+  
+  
+  setTimeout(function () {
+  	if (preloader) {
+  		setTimeout(function () {
+  			preloader.classList.add('preloader--hide');
+  		}, 2000);
+  
+  		setTimeout(function () {
+  			preloader.style.display = 'none';
+  		}, 3500);
+  	}
+  }, 500);
+</script>
+<header class="header">
+  <div class="center-wrap">
+    <div class="header__wrap"><a class="header__logo single-anchors img-wrap" href="index.html#home" aria-label="Logo">
+        <div><img src="assets/images/svg/Logo.svg" alt=""></div></a>
+      <nav class="header__nav mobile--hide">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a class="header__nav-link" href="/about.html">About us</a></li>
+          <li class="header__nav-item header__nav-item--drop">
+            <div class="header__nav-box">
+              <p class="header__nav-link">Our services</p>
+              <svg viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 7L8 10L4 7" stroke-width="1.2" stroke-linecap="square"></path>
+              </svg>
+            </div>
+            <div class="header__drop">
+              <ul class="header__drop-list">
+                <li class="header__drop-item"> <a class="header__drop-link" href="/services">Basic Check-Up Programs   </a></li>
+                <li class="header__drop-item"> <a class="header__drop-link" href="/services">Genetic Testing</a></li>
+                <li class="header__drop-item"> <a class="header__drop-link" href="/services">Anti-Aging</a></li>
+                <li class="header__drop-item"> <a class="header__drop-link" href="/services">DNA</a></li>
+              </ul>
+            </div>
+          </li>
+          <li class="header__nav-item"><a class="header__nav-link" href="/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__right mobile--hide">
+        <div class="header__lang">
+          <div class="header__lang-row">
+            <div class="header__lang-title">EN</div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="none">
+              <path d="M12 7L8 10L4 7" stroke-width="1.2" stroke-linecap="square"></path>
+            </svg>
+          </div>
+          <div class="header__lang-drop"> 
+            <div class="header__lang-list"> <a class="header__lang-link" href="#">En </a><a class="header__lang-link" href="#">Ru</a></div>
+          </div>
+        </div>
+        <div class="header__btn"><a class="btn single-anchors" href="index.html#contact-bl">Contact us</a></div>
+      </div>
+      <div class="header__burger desktop--hide">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+          <path d="M3 12H21M3 6H21M9 18H21" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+        </svg>
+      </div>
+    </div>
+  </div>
+</header>
+    <main>
+      <section class="top-screen top-screen--programs">
+        <div class="top-screen__bg img-parallax">
+          <picture>
+            <source srcset="assets/images/png/top-screen-img4-mob.webp" type="image/webp" media="(max-width: 600px)">
+            <source srcset="assets/images/png/top-screen-img4.webp" type="image/webp"><img src="assets/images/png/top-screen-img4.png" alt="">
+          </picture>
+        </div>
+        <div class="center-wrap">
+          <div class="top-screen__wrap">
+            <h2 class="simple-title simple-title--center">Check-Up <br> Programs</h2>
+          </div>
+        </div>
+      </section>
+      <section class="best-clinics padd best-clinics--programs">
+        <div class="center-wrap"> 
+          <div class="best-clinics__wrap">
+            <h2 class="simple-title simple-title--center">We Work with One of the Best Clinics Around the World</h2>
+            <div class="best-clinics__list">
+              <div class="best-clinics__item"> 
+                <div class="best-clinics__item-img img-wrap">
+                  <div><img src="assets/images/svg/best-clinics-icon1.svg" alt=""></div>
+                </div>
+                <div class="best-clinics__item-right">
+                  <div class="best-clinics__title">Comprehensive World-Class Healthcare Model</div>
+                  <div class="content">
+                    <p>Full range of medicine including Eastern, Western, and Gene analysis ("Triple Health System").</p>
+                  </div>
+                </div>
+              </div>
+              <div class="best-clinics__item"> 
+                <div class="best-clinics__item-img img-wrap">
+                  <div><img src="assets/images/svg/best-clinics-icon4.svg" alt=""></div>
+                </div>
+                <div class="best-clinics__item-right">
+                  <div class="best-clinics__title">New Anti-Aging Management System</div>
+                  <div class="content">
+                    <p>12 different senility test categories to assess function of the brain, cells, immune system, capillary flow, autonomic nervous system, and hormones. Advanced gene analysis test based on genetic mapping to understand the aging process and potential health risks. Personalized program supported by a team of doctors, health consultants, therapists, nutritionists and trainers.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="best-clinics__item"> 
+                <div class="best-clinics__item-img img-wrap">
+                  <div><img src="assets/images/svg/best-clinics-icon5.svg" alt=""></div>
+                </div>
+                <div class="best-clinics__item-right">
+                  <div class="best-clinics__title">World Class Doctor's Group</div>
+                  <div class="content">
+                    <p>Fusce volutpat lectus et nisl consectetur finibus. In vitae scelerisque augue, in varius eros. Nunc sapien diam, euismod et pretium id, volutpat et tortor. In vulputate lorem quis dui vestibulum, vitae imperdiet diam bibendum.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="best-clinics__item"> 
+                <div class="best-clinics__item-img img-wrap">
+                  <div><img src="assets/images/svg/best-clinics-icon3.svg" alt=""></div>
+                </div>
+                <div class="best-clinics__item-right">
+                  <div class="best-clinics__title">State-of-the-art Medical Equipment & Systems</div>
+                  <div class="content">
+                    <p>Modern and high-tech equipment : MRI, Ultra-low radiation CT, Ultrasound, Echocardiography, exablate 200, and more. Cell medical exam system includes body composition and condition tests all within the comfort of the patient's own space. Radiation warning system to monitor the body's exposure to radiation. Innovative & non-invasive equipment for body slimming and facial treatments.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="best-clinics__item"> 
+                <div class="best-clinics__item-img img-wrap">
+                  <div><img src="assets/images/svg/best-clinics-icon6.svg" alt=""></div>
+                </div>
+                <div class="best-clinics__item-right">
+                  <div class="best-clinics__title">New Bio-Care Technology</div>
+                  <div class="content">
+                    <p>Stem cell centrifuge & storage through one of a kind personalized stem cell banking program. Advanced sports injury rehabilitation equipment (the only one in Korea).</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+<section class="awards padd">
+  <div class="awards__bg"> 
+    <picture>
+      <source srcset="assets/images/png/awards-bg.webp" type="image/webp"><img src="assets/images/png/awards-bg.png" alt="">
+    </picture>
+  </div>
+  <div class="center-wrap"> 
+    <h2 class="simple-title simple-title--center">Awards</h2>
+    <div class="programs__list">
+      <div class="benefits-slider__item">
+        <div class="benefits-slider__item-top">
+          <div class="benefits-slider__item-icon img-wrap">
+            <div><img src="assets/images/svg/programs-icon13.svg" alt=""></div>
+          </div><a class="services-bl__links-item" href="#">
+            <p>Learn more</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg></a>
+        </div>
+        <div class="content"> 
+          <p><strong>Medical Korea Awards 2012 for Health Examination from International</strong></p>
+        </div>
+      </div>
+      <div class="benefits-slider__item">
+        <div class="benefits-slider__item-top">
+          <div class="benefits-slider__item-icon img-wrap">
+            <div><img src="assets/images/svg/programs-icon13.svg" alt=""></div>
+          </div><a class="services-bl__links-item" href="#">
+            <p>Learn more</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg></a>
+        </div>
+        <div class="content"> 
+          <p><strong>Medical Korea Awards 2011 for Anti-aging Treatment</strong></p>
+        </div>
+      </div>
+      <div class="benefits-slider__item">
+        <div class="benefits-slider__item-top">
+          <div class="benefits-slider__item-icon img-wrap">
+            <div><img src="assets/images/svg/programs-icon13.svg" alt=""></div>
+          </div><a class="services-bl__links-item" href="#">
+            <p>Learn more</p>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+              <path d="M7 17L17 7M17 7H7M17 7V17" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path>
+            </svg></a>
+        </div>
+        <div class="content"> 
+          <p><strong>The 20th IAGG World Congress of Gerontology and Geriatrics</strong></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="basic">
+  <div class="default-bl__row default-bl__row--reverse">
+    <div class="left">
+      <div class="img-wrap img-parallax img-wrap--static">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img14.webp" type="image/webp"><img src="assets/images/png/treatment-img14.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Basic</div>
+      <div class="content"> 
+        <p>Basic check-ups provide early detection for most common diseases.</p>
+      </div>
+      <div class="default-bl__tab toogles">
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title toogles__item-title--active" data-toogles="1">
+            <p>Consultation</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item toogles__item--active" data-toogles="1">
+              <div class="toogles__item-content" style="display: block;">
+                <div>
+                  <div class="content"> 
+                    <ul>
+                      <li>Preliminary consultation, Result consultation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="2">
+            <p>Body Measurement</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="2">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="3">
+            <p>Blood Test</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="3">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="4">
+            <p>Tumor Marker Blood Tests</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="4">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="5">
+            <p>Stool Exam/Urine Test</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="5">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="6">
+            <p>Ophthalmologic Exam</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="6">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="7">
+            <p>Otolaryngologic Exam</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="7">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="8">
+            <p>Respiratory Exam</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="8">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="9">
+            <p>Cardiovascular Exam</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="9">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="10">
+            <p>Gastroenterologic Exam</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="10">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="11">
+            <p>Gynecologic Exam</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="11">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--green">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img15.webp" type="image/webp"><img src="assets/images/png/treatment-img15.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Intensive  Cancer <br> Check-Up</div>
+      <div class="content">
+        <p>Program for clients who have a family history of cancer and want early detection of diseases.</p>
+      </div>
+      <div class="basic__box"> 
+        <div class="basic__box-item">
+          <p class="basic__box-title">Basic</p>
+        </div>
+        <div class="basic__box-item">
+          <div class="content"> 
+            <p>Comprehensive blood analysis, urine cytology, colonoscopy, MRI of the pancreas, low- dose CT scan of the lungs, osteodensitometry, peripheral blood smear, CYFRA (lung cancer), albumin.</p>
+            <p><strong>For Men:</strong> Free PSA (prostate cancer), male hormones (SHBG, testosterone).</p>
+            <p><strong>For Women:</strong> ROMA (ovarian cancer), female hormones (FSH, estradiol, LH), HPV test (human papillomavirus), pelvic ultrasound.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--green default-bl__row--reverse">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img16.webp" type="image/webp"><img src="assets/images/png/treatment-img16.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Whole-Body MRI</div>
+      <div class="content">
+        <p>Program for clients who have a family history of cancer and want early detection of diseases.</p>
+      </div>
+      <div class="basic__box"> 
+        <div class="basic__box-item">
+          <p class="basic__box-title">Basic</p>
+        </div>
+        <div class="basic__box-item">
+          <p class="basic__box-title">Cancer</p>
+        </div>
+        <div class="basic__box-item">
+          <div class="content"> 
+            <p>Comprehensive blood analysis, urine cytology, colonoscopy, MRI of the pancreas, low- dose CT scan of the lungs, osteodensitometry, peripheral blood smear, CYFRA (lung cancer), albumin.</p>
+            <p><strong>For Men:</strong> Free PSA (prostate cancer), male hormones (SHBG, testosterone).</p>
+            <p><strong>For Women:</strong> ROMA (ovarian cancer), female hormones (FSH, estradiol, LH), HPV test (human papillomavirus), pelvic ultrasound.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--green">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img17.webp" type="image/webp"><img src="assets/images/png/treatment-img17.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Noble</div>
+      <div class="content">
+        <p>The most comprehensive program, including whole-body MRI.</p>
+      </div>
+      <div class="basic__box"> 
+        <div class="basic__box-item">
+          <p class="basic__box-title">Basic</p>
+        </div>
+        <div class="basic__box-item">
+          <p class="basic__box-title">Cancer</p>
+        </div>
+        <div class="basic__box-item">
+          <p class="basic__box-title">MRI</p>
+        </div>
+        <div class="basic__box-item">
+          <div class="content"> 
+            <p>Premium anti-aging program: Hair mineral analysis, Organic acid urine analysis, Food immune allergy analysis IG-PRO, Active oxygen/antioxidant activity, DNA test - Medifit (obesity), DNA test - Hellogene (cancer).</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<section class="additional-programs padd">
+  <div class="center-wrap"> 
+    <h2 class="simple-title simple-title--center">Additional Check-Up Programs</h2>
+    <div class="additional-programs__content content"> 
+      <p>Additional examinations that can be selected in addition to the main program.</p>
+    </div>
+  </div>
+  <div class="additional-programs__tab toogles toogles--fade">
+    <div class="left">
+      <ul class="additional-programs__tab-list"> 
+        <li class="additional-programs__tab-item toogles__item-title toogles__item-title--active" data-toogles="1">
+          <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+            <path d="M2.33203 10.8704C2.33203 15.2212 7.02136 19.8228 10.4541 22.6084C12.008 23.8695 12.785 24.5 13.9987 24.5C15.2124 24.5 15.9894 23.8695 17.5434 22.6084C20.976 19.8228 25.6654 15.2213 25.6654 10.8704C25.6654 3.60206 19.2485 0.888415 13.9987 6.50314C8.74889 0.888415 2.33203 3.60206 2.33203 10.8704Z" stroke-width="2"></path>
+            <path d="M21.5846 10.5003H19.2513M19.2513 10.5003L16.918 10.5003M19.2513 10.5003L19.2513 8.16699M19.2513 10.5003L19.2513 12.8337" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+          <p>Heart</p>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path d="M18 11L12 15L6 11" stroke="#28282A" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+        </li>
+        <li class="additional-programs__tab-item toogles__item-title" data-toogles="2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+            <path d="M3.5 25.6663H14M12.8333 7.29372C13.5791 7.10177 14.361 6.99967 15.1667 6.99967C20.3213 6.99967 24.5 11.1784 24.5 16.333C24.5 20.25 22.0871 23.6033 18.6667 24.9879M6.41667 15.1663H11.0833C11.6254 15.1663 11.8965 15.1663 12.1219 15.2112C13.0475 15.3953 13.7711 16.1189 13.9552 17.0445C14 17.2699 14 17.5409 14 18.083C14 18.6251 14 18.8962 13.9552 19.1216C13.7711 20.0472 13.0475 20.7707 12.1219 20.9548C11.8965 20.9997 11.6254 20.9997 11.0833 20.9997H6.41667C5.87457 20.9997 5.60352 20.9997 5.37812 20.9548C4.45251 20.7707 3.72895 20.0472 3.54483 19.1216C3.5 18.8962 3.5 18.6251 3.5 18.083C3.5 17.5409 3.5 17.2699 3.54483 17.0445C3.72895 16.1189 4.45251 15.3953 5.37812 15.2112C5.60352 15.1663 5.87457 15.1663 6.41667 15.1663ZM4.66667 6.41634V15.1663H12.8333V6.41634C12.8333 4.16118 11.0052 2.33301 8.75 2.33301C6.49484 2.33301 4.66667 4.16118 4.66667 6.41634Z" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+          <p>GIT</p>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path d="M18 11L12 15L6 11" stroke="#28282A" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+        </li>
+        <li class="additional-programs__tab-item toogles__item-title" data-toogles="3">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+            <path d="M14.0646 22.1661C18.5748 22.2025 22.2015 18.5758 22.1651 14.0656C22.1287 9.5554 18.443 5.86967 13.9328 5.83328C9.42262 5.79688 5.79591 9.4236 5.8323 13.9338C5.8687 18.444 9.55442 22.1297 14.0646 22.1661Z" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M21 7L19.775 8.22504" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M5.83203 5.83301L8.16536 8.16634" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M19.8906 21.0586L19.2492 20.4172" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M7 22.2246L8.22504 20.9996" stroke-width="1.5" stroke-linecap="round"></path>
+            <path d="M19.2487 15.1663C19.2487 16.455 18.204 17.4997 16.9154 17.4997C15.6267 17.4997 14.582 16.455 14.582 15.1663C14.582 13.8777 15.6267 12.833 16.9154 12.833C18.204 12.833 19.2487 13.8777 19.2487 15.1663Z" stroke-width="1.5"></path>
+            <path d="M12.8333 10.4997C12.8333 11.144 12.311 11.6663 11.6667 11.6663C11.0223 11.6663 10.5 11.144 10.5 10.4997C10.5 9.85534 11.0223 9.33301 11.6667 9.33301C12.311 9.33301 12.8333 9.85534 12.8333 10.4997Z" stroke-width="1.5"></path>
+            <circle cx="10.4987" cy="15.1667" r="1.16667" fill="#78787D"></circle>
+            <circle cx="22.75" cy="5.25" r="1.75" stroke-width="1.5"></circle>
+            <circle cx="1.75" cy="1.75" r="1.75" transform="matrix(-1 0 0 1 5.83203 2.33301)" stroke-width="1.5"></circle>
+            <path d="M2.33203 14C2.33203 14.9665 3.11553 15.75 4.08203 15.75C5.04853 15.75 5.83203 14.9665 5.83203 14C5.83203 13.0335 5.04853 12.25 4.08203 12.25C3.11553 12.25 2.33203 13.0335 2.33203 14Z" stroke-width="1.5"></path>
+            <circle cx="1.75" cy="1.75" r="1.75" transform="matrix(1 0 0 -1 19.8906 24.5586)" stroke-width="1.5"></circle>
+            <circle cx="5.25" cy="23.917" r="1.75" transform="rotate(180 5.25 23.917)" stroke-width="1.5"></circle>
+            <path d="M15.75 4.08301C15.75 5.04951 14.9665 5.83301 14 5.83301C13.0335 5.83301 12.25 5.04951 12.25 4.08301C12.25 3.11651 13.0335 2.33301 14 2.33301C14.9665 2.33301 15.75 3.11651 15.75 4.08301Z" stroke-width="1.5"></path>
+            <path d="M22.7513 15.75C23.7178 15.75 24.5013 14.9665 24.5013 14C24.5013 13.0335 23.7178 12.25 22.7513 12.25C22.5468 12.25 22.3504 12.2851 22.168 12.3496V15.6504C22.3504 15.7149 22.5468 15.75 22.7513 15.75Z" stroke-width="1.5"></path>
+            <path d="M12.3515 22.167C12.5917 22.8467 13.2399 23.3337 14.0019 23.3337C14.7639 23.3337 15.4121 22.8467 15.6523 22.167L12.3515 22.167Z" stroke-width="1.5"></path>
+          </svg>
+          <p>Immune System</p>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path d="M18 11L12 15L6 11" stroke="#28282A" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+        </li>
+        <li class="additional-programs__tab-item toogles__item-title" data-toogles="4">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+            <path d="M14 19.25V8.75" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M9.625 15.75C10.4903 15.75 11.3362 16.0066 12.0556 16.4873C12.7751 16.9681 13.3358 17.6513 13.667 18.4508C13.9981 19.2502 14.0847 20.1299 13.9159 20.9785C13.7471 21.8272 13.3304 22.6067 12.7186 23.2186C12.1067 23.8304 11.3272 24.2471 10.4785 24.4159C9.62985 24.5847 8.75019 24.4981 7.95076 24.167C7.15133 23.8358 6.46805 23.2751 5.98732 22.5556C5.50659 21.8362 5.25 20.9903 5.25 20.125" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M18.375 15.75C17.5097 15.75 16.6638 16.0066 15.9444 16.4873C15.2249 16.9681 14.6642 17.6513 14.333 18.4508C14.0019 19.2502 13.9153 20.1299 14.0841 20.9785C14.2529 21.8272 14.6696 22.6067 15.2814 23.2186C15.8933 23.8304 16.6728 24.2471 17.5215 24.4159C18.3701 24.5847 19.2498 24.4981 20.0492 24.167C20.8487 23.8358 21.532 23.2751 22.0127 22.5556C22.4934 21.8362 22.75 20.9903 22.75 20.125" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M7.87348 19.6875H6.99848C5.75753 19.6908 4.55553 19.2545 3.60571 18.4559C2.65589 17.6572 2.01967 16.548 1.80992 15.3249C1.60017 14.1018 1.83046 12.8439 2.45992 11.7745C3.08938 10.705 4.07733 9.89313 5.24848 9.48281V7.875C5.24848 6.71468 5.70941 5.60188 6.52988 4.78141C7.35036 3.96094 8.46315 3.5 9.62348 3.5C10.7838 3.5 11.8966 3.96094 12.7171 4.78141C13.5375 5.60188 13.9985 6.71468 13.9985 7.875V20.125" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M20.125 19.6875H21C22.2409 19.6908 23.4429 19.2545 24.3928 18.4559C25.3426 17.6572 25.9788 16.548 26.1886 15.3249C26.3983 14.1018 26.168 12.8439 25.5386 11.7745C24.9091 10.705 23.9211 9.89313 22.75 9.48281V7.875C22.75 6.71468 22.2891 5.60188 21.4686 4.78141C20.6481 3.96094 19.5353 3.5 18.375 3.5C17.2147 3.5 16.1019 3.96094 15.2814 4.78141C14.4609 5.60188 14 6.71468 14 7.875" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M9.625 9.1875V10.0625C9.625 10.8747 9.30234 11.6537 8.72801 12.228C8.15368 12.8023 7.37473 13.125 6.5625 13.125" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M18.375 9.1875V10.0625C18.375 10.8747 18.6977 11.6537 19.272 12.228C19.8463 12.8023 20.6253 13.125 21.4375 13.125" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          </svg>
+          <p>Brain</p>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path d="M18 11L12 15L6 11" stroke="#28282A" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+        </li>
+        <li class="additional-programs__tab-item toogles__item-title" data-toogles="5">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+            <path d="M14 8.75V13.8351" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M18.5513 16.6253L14.293 14.292" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M7.85156 10.9043H3.47656V6.5293" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M7.19812 20.8031C8.54389 22.15 10.2589 23.0675 12.1262 23.4395C13.9934 23.8115 15.9291 23.6214 17.6883 22.8931C19.4475 22.1648 20.9512 20.9312 22.0091 19.3482C23.0671 17.7652 23.6318 15.904 23.6318 14C23.6318 12.096 23.0671 10.2348 22.0091 8.65183C20.9512 7.06883 19.4475 5.83518 17.6883 5.10691C15.9291 4.37865 13.9934 4.1885 12.1262 4.56052C10.2589 4.93254 8.54389 5.85001 7.19812 7.19688L3.79297 10.5" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+          <p>Anti-Aging</p>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path d="M18 11L12 15L6 11" stroke="#28282A" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+        </li>
+        <li class="additional-programs__tab-item toogles__item-title" data-toogles="6">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+            <path d="M4.93149 21.4375C4.95948 21.5526 5.01023 21.6608 5.08076 21.7559C5.15129 21.851 5.24016 21.9309 5.34212 21.9911C5.44408 22.0513 5.55706 22.0904 5.67439 22.1061C5.79172 22.1219 5.91102 22.114 6.02524 22.0828C11.2391 20.6392 16.7473 20.6392 21.9612 22.0828C22.0754 22.114 22.1947 22.1219 22.312 22.1061C22.4294 22.0904 22.5423 22.0513 22.6443 21.9911C22.7463 21.9309 22.8351 21.851 22.9057 21.7559C22.9762 21.6608 23.0269 21.5526 23.0549 21.4375L25.844 9.59221C25.8823 9.43366 25.8755 9.26756 25.8244 9.11267C25.7733 8.95777 25.6799 8.82023 25.5548 8.71559C25.4297 8.61095 25.2778 8.54336 25.1163 8.52045C24.9548 8.49755 24.7901 8.52024 24.6409 8.58596L19.1065 11.0469C18.906 11.1352 18.6798 11.146 18.4718 11.0774C18.2637 11.0087 18.0885 10.8653 17.9799 10.675L14.7643 4.87815C14.6886 4.74139 14.5777 4.62739 14.4431 4.54801C14.3084 4.46862 14.155 4.42676 13.9987 4.42676C13.8424 4.42676 13.6889 4.46862 13.5543 4.54801C13.4196 4.62739 13.3087 4.74139 13.2331 4.87815L10.0174 10.675C9.90887 10.8653 9.73364 11.0087 9.52558 11.0774C9.31752 11.146 9.09139 11.1352 8.89086 11.0469L3.35649 8.58596C3.20721 8.52024 3.04253 8.49755 2.88103 8.52045C2.71954 8.54336 2.56766 8.61095 2.44255 8.71559C2.31743 8.82023 2.22405 8.95777 2.17295 9.11267C2.12185 9.26756 2.11507 9.43366 2.15336 9.59221L4.93149 21.4375Z" stroke-width="2" stroke-linecap="square"></path>
+            <path d="M10.5 17.6857C12.8266 17.4342 15.1734 17.4342 17.5 17.6857" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+          <p>Premium Anti-Aging</p>
+          <svg class="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path d="M18 11L12 15L6 11" stroke="#28282A" stroke-width="2" stroke-linecap="square"></path>
+          </svg>
+        </li>
+      </ul>
+    </div>
+    <div class="right">
+      <div class="additional-programs__tab-body">
+        <div class="toogles__item toogles__item--active" data-toogles="1">
+          <div class="toogles__item-content" style="display: block;">
+            <div>
+              <div class="additional-programs__tab-box">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/additional-programs__tab1.webp" type="image/webp"><img src="assets/images/png/additional-programs__tab1.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="content"> 
+                  <p><strong>Examinations for clients at risk of cardiovascular diseases such as hypertension, high blood sugar, hyperlipidemia, obesity, or with a family history of such conditions.</strong></p>
+                </div>
+                <div class="additional-programs__tab-descr">
+                  <p>Echocardiography, carotid artery ultrasound, CT screening with coronary artery calcium score measurement, vascular atherosclerosis test, lipoprotein(a), fibrinogen, Apo A,Apo B, homocysteine, peripheral blood smear.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toogles__item" data-toogles="2">
+          <div class="toogles__item-content">
+            <div class="additional-programs__tab-box">
+              <div>
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/additional-programs__tab2.webp" type="image/webp"><img src="assets/images/png/additional-programs__tab2.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="content"> 
+                  <p><strong>Examinations for clients at risk of gastrointestinal disorders such as gastritis, enteritis, colitis, pancreatitis, or with a family history of gastrointestinal organs</strong></p>
+                </div>
+                <div class="additional-programs__tab-descr">
+                  <p>3D CT of the abdominal organs and pelvis.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toogles__item" data-toogles="3">
+          <div class="toogles__item-content">
+            <div>
+              <div class="additional-programs__tab-box">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/additional-programs__tab3.webp" type="image/webp"><img src="assets/images/png/additional-programs__tab3.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="content"> 
+                  <p><strong>Examinations for clients who wish to assess their immune system, restore vitality, and strengthen their natural defense mechanisms.</strong></p>
+                </div>
+                <div class="additional-programs__tab-descr">
+                  <p>Immunocyte(CD16+CD56),Vitamins A, C, B6, B12, folate, Se, Zn, Cu, Mg, Mn, Cr, IgG, IgA, IgM, DHEA, IGF-1, ANA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toogles__item" data-toogles="4">
+          <div class="toogles__item-content">
+            <div>
+              <div class="additional-programs__tab-box">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/additional-programs__tab4.webp" type="image/webp"><img src="assets/images/png/additional-programs__tab4.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="content"> 
+                  <p><strong>Examinations for clients with neurological symptoms or a family history of conditions such as stroke, dementia, covert stenosis, aneurysm, etc.</strong></p>
+                </div>
+                <div class="additional-programs__tab-descr">
+                  <p>MRI + MRA (Magnetic Resonance Angiography) of the brain.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toogles__item" data-toogles="5">
+          <div class="toogles__item-content">
+            <div>
+              <div class="additional-programs__tab-box">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/additional-programs__tab5.webp" type="image/webp"><img src="assets/images/png/additional-programs__tab5.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="content"> 
+                  <p><strong>Examinations for clients seeking preventive check-ups for individual health care in old age.</strong></p>
+                </div>
+                <div class="additional-programs__tab-descr">
+                  <p>Cortisol, DHEA, IGF-1, Organic acid urine analysis, Hair mineral analysis, ESR (Erythrocyte Sedimentation Rate), Food immune allergy analysis IG-PRO, Free radicals & antioxidant activity (SQ lab), DNA test for diseases and lifestyle.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="toogles__item" data-toogles="6">
+          <div class="toogles__item-content">
+            <div>
+              <div class="additional-programs__tab-box">
+                <div class="img-wrap img-parallax">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/additional-programs__tab6.webp" type="image/webp"><img src="assets/images/png/additional-programs__tab6.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="content"> 
+                  <p><strong>Anti-aging tests + DNA tests.</strong></p>
+                </div>
+                <div class="additional-programs__tab-descr">
+                  <p>DNA test for diseases and lifestyle.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="genetic-testing">
+  <div class="center-wrap"> 
+    <h2 class="simple-title simple-title--center">Genetic Testing</h2>
+  </div>
+  <div class="default-bl__row default-bl__row--reverse default-bl__row--grey">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img18.webp" type="image/webp"><img src="assets/images/png/treatment-img18.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Cancer</div>
+      <div class="content"> 
+        <p><strong>A service composed of general and gender-specific cancers. It is recommended for adults with a family history of cancer or for those who want to improve their quality of life through proactive prevention against cancer.</strong></p>
+        <p>Gastric cancer, lung cancer, colorectal cancer, hepatocellular carcinoma, thyroid cancer, renal cell carcinoma, pancreatic cancer.</p>
+        <p><strong>Male cancers:</strong> prostate cancer, testicular cancer, bladder cancer, esophageal cancer.</p>
+        <p><strong>Female cancers:</strong> breast cancer, cervical cancer, endometrial cancer, ovarian cancer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--grey">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img19.webp" type="image/webp"><img src="assets/images/png/treatment-img19.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Common Disease</div>
+      <div class="content"> 
+        <p><strong>A service composed of common diseases, excluding cancer. It is recommended for adults with a family history of common diseases or those who think that they could be especially vulnerable to these diseases.</strong></p>
+        <p>Chronic Hepatitis, non-alcoholic fatty liver disease, Crohn’s disease, ulcerative colitis, type 2 diabetes mellitus, obesity, hyperlipidemia, systemic lupus erythematosus, psoriasis, atopic dermatitis, periodontal disease, allergic rhinitis, chronic obstructive pulmonary disease, asthma, glaucoma, macular degeneration, gout, rheumatoid arthritis, osteoarthritis, osteoporosis, stroke, dementia, chronic artery disease, atrial fibrillation, myocardial infarction, high blood pressure, brain aneurysm, (+Female: polycystic ovary syndrome).</p>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--reverse default-bl__row--grey">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img20.webp" type="image/webp"><img src="assets/images/png/treatment-img20.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Platinum</div>
+      <div class="content"> 
+        <p><strong>A comprehensive health care service that provides information on drug reactions and physical traits such as alcohol and nicotine dependence, in addition to cancer and common diseases.</strong></p>
+        <p>Cancer 11 Types + Common Disease 27 Types + Physical Characteristics 6 Types + Food/Drug Response 4 Types.</p>
+        <p><strong>Physical Characteristics:</strong>  fibrinogen response to ambient particulate material, malocclusion, triglycerides level, alcohol dependence, nicotine dependence, high myopia.</p>
+        <p><strong>Food/Drug Response:</strong> warfarin maintenance dose, cyclophosphamide- induced adverse drug reactions, ACEI therapy in hypertensive, methamphetamine psychosis.</p>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--grey">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img21.webp" type="image/webp"><img src="assets/images/png/treatment-img21.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Platinum Lite</div>
+      <div class="content"> 
+        <p><strong>A solid configuration that allows you to see the onset of cancer and common diseases at once. Itvis recommended for those who have a family history of cancer or common diseases or those who want to improve the quality of life through proactive prevention against disease.</strong></p>
+        <p>Cancer 11 Types + Common Disease 27 Types.</p>
+      </div>
+      <div class="simple-title">Noble</div>
+      <div class="content"> 
+        <p><strong>A one stop solution that covers all the services, ranging from cancers to common and rare diseases.</strong></p>
+        <p>Cancer 11 Types + Common Disease 27 Types + Physical Characteristics 6 Types + Food/Drug Response 4 Types + Rare Disease 44 Types.</p>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--reverse default-bl__row--grey">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img22.webp" type="image/webp"><img src="assets/images/png/treatment-img22.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Metabolic Syndrome Disease</div>
+      <div class="content"> 
+        <p><strong>It is a composition that can detect the possibility of developing metabolic syndrome related diseases. It is recommended for people who have a family history related to metabolic syndrome or think that management is needed for metabolic syndrome.</strong></p>
+        <p>Myocardial Infarction, non-alcoholic fatty liver disease, high blood pressure, stroke, type 2 diabetes mellitus, obesity, hyperlipidemia, coronary artery disease.</p>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--grey">
+    <div class="left">
+      <div class="img-wrap img-parallax">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img23.webp" type="image/webp"><img src="assets/images/png/treatment-img23.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">Geriatric Disease</div>
+      <div class="content"> 
+        <p><strong>It is recommended for those who want to prepare for a healthy life in their advanced years through services composed of geriatric diseases that are likely to occur in later years.</strong></p>
+        <p>Chronic obstructive pulmonary disease, periodontal disease, glaucoma, macular degeneration, rheumatoid arthritis, osteoarthritis, osteoporosis, stroke, dementia.</p>
+      </div>
+      <div class="simple-title">Kids</div>
+      <div class="content"> 
+        <p><strong>It is a service consisting of chronic diseases that occur frequently in childhood. People who want to check the risk of genetic diseases such as atopy, asthma, and rhinitis regardless of age can also be tested.</strong></p>
+        <p>Asthma, atopic dermatitis, allergic rhinitis, obesity, type 1 diabetes mellitus, type 2 diabetes mellitus, high myopia, dental deformities, reaction to find dust.</p>
+      </div>
+    </div>
+  </div>
+  <div class="default-bl__row default-bl__row--green default-bl__row--reverse default-bl__row--start">
+    <div class="left">
+      <div class="img-wrap img-parallax img-wrap--static">
+        <div>
+          <picture>
+            <source srcset="assets/images/png/treatment-img14.webp" type="image/webp"><img src="assets/images/png/treatment-img14.png" alt="">
+          </picture>
+        </div>
+      </div>
+    </div>
+    <div class="right">
+      <div class="simple-title">DNA Checkup <br> Program</div>
+      <div class="default-bl__tab toogles">
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title toogles__item-title--active" data-toogles="1">
+            <p>Disease Prognostic DNA Testing</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item toogles__item--active" data-toogles="1">
+              <div class="toogles__item-content" style="display: block;">
+                <div>
+                  <div class="content">
+                    <p>This test sheds light on your genetic predisposition for some of the most common diseases and cancers. In addition to learning about your personal risk factors for diseases, this comprehensive test uses reliable DNA markers to provide valuable insight on drug sensitivities, your status as a carrier and more.</p>
+                    <p><strong>Recommended for:</strong></p>
+                    <ul>
+                      <li>People with a family history of diseases.</li>
+                      <li>People who would like to take early measures to prevent high-risk diseases.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="2">
+            <p>Lifestyle / Beauty DNA Testing</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="2">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="3">
+            <p>NK Cell Activity Test</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="3">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="4">
+            <p>Basic Tests (Blood, Urine)</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="4">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="default-bl__tab-item">
+          <div class="default-bl__tab-title toogles__item-title" data-toogles="5">
+            <p>Anti-Aging Tests</p>
+            <div class="default-bl__tab-icon"> 
+              <svg class="default-bl__tab-svg default-bl__tab-svg--default" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+                <path d="M14 4.375V23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+              <svg class="default-bl__tab-svg default-bl__tab-svg--active" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 28" fill="none">
+                <path d="M4.375 14H23.625" stroke="#28282A" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="default-bl__tab-body"> 
+            <div class="toogles__item" data-toogles="5">
+              <div class="toogles__item-content">
+                <div>
+                  <div class="content"> 
+                    <p><strong>Latest treatment methods:</strong></p>
+                    <ul>
+                      <li>Minimally invasive surgery using laser, endoscopy, and robotic equipment</li>
+                      <li>Partial excision to optimize preservation of function and quality of life</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    </main>
+<footer class="footer">
+  <div class="footer__top">
+    <div class="footer__top-wrap">
+      <div class="left"><a class="footer__logo single-anchors img-wrap" href="index.html#home" aria-label="Logo">
+          <div><img src="assets/images/svg/Logo2.svg" alt=""></div></a>
+        <div class="footer__info"> 
+          <div class="footer__info-text">D&S BESPOKE <br> <span>MEDICAL CONCIERGE</span></div>
+          <div class="footer__socials">
+            <div class="footer__socials-title">Follow us:</div>
+            <div class="socials"><a class="socials__link" href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                  <path d="M13.7456 13.7981V23H9.51479V13.7899H6V10.0555H9.51479V8.69675C9.51479 3.65237 11.622 1 16.0806 1C17.4475 1 17.7892 1.21967 18.5377 1.39867V5.09246C17.6997 4.94601 17.4638 4.86465 16.5932 4.86465C15.5599 4.86465 15.0067 5.15754 14.5022 5.73521C13.9978 6.31287 13.7456 7.31361 13.7456 8.74556V10.0636H18.5377L17.2522 13.7981H13.7456Z" stroke-width="2"></path>
+                </svg></a><a class="socials__link" href="#" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                  <path d="M19.3228 23H4.67721C2.65339 23 1 21.3466 1 19.3228V4.67721C1 2.65339 2.65339 1 4.67721 1H19.3228C21.3466 1 23 2.65339 23 4.67721V19.3228C23 21.3556 21.3556 23 19.3228 23Z" stroke-width="2"></path>
+                  <path d="M8.464 15.536C9.408 16.48 10.664 17 12 17C13.336 17 14.584 16.48 15.536 15.536C16.48 14.592 17 13.336 17 12C17 10.664 16.48 9.408 15.536 8.464C14.592 7.52 13.336 7 12 7C10.664 7 9.408 7.52 8.464 8.464C7.52 9.408 7 10.664 7 12C7 13.336 7.52 14.592 8.464 15.536Z" stroke-width="2"></path>
+                  <path d="M18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7Z" stroke-width="2"></path>
+                </svg></a></div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <nav class="footer__nav"> 
+          <ul class="footer__nav-list"> 
+            <li class="footer__nav-item"> <a class="footer__nav-link" href="#" target="_blank">our Services</a></li>
+            <li class="footer__nav-item"> <a class="footer__nav-link" href="#" target="_blank">Terms of Use</a></li>
+            <li class="footer__nav-item"> <a class="footer__nav-link" href="#" target="_blank">Privacy Policy</a></li>
+          </ul>
+        </nav>
+        <div class="footer__contact">
+          <div class="footer__contact-title">Contact us directly at: </div>
+          <div class="footer__contact-box"><a class="footer__contact-link" href="mailto:ds@dsbespoke.com" aria-label="mailto">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M2 12C2 8.22876 2 6.34315 3.17157 5.17157C4.34315 4 6.22876 4 10 4H14C17.7712 4 19.6569 4 20.8284 5.17157C22 6.34315 22 8.22876 22 12C22 15.7712 22 17.6569 20.8284 18.8284C19.6569 20 17.7712 20 14 20H10C6.22876 20 4.34315 20 3.17157 18.8284C2 17.6569 2 15.7712 2 12Z" stroke="#EFEFF0" stroke-width="2" stroke-linecap="square"></path>
+                <path d="M6 9L8.1589 10.7991C9.99553 12.3296 10.9139 13.0949 12 13.0949C13.0861 13.0949 14.0045 12.3296 15.8411 10.7991L18 9" stroke="#EFEFF0" stroke-width="2" stroke-linecap="square"></path>
+              </svg>
+              <p>ds@dsbespoke.com</p></a><a class="footer__contact-link" href="tel:447780466305" aria-label="Tel">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                <path d="M15.5562 13.9062L15.1007 14.359C15.1007 14.359 14.0181 15.4355 11.0631 12.4972C8.10812 9.55901 9.1907 8.48257 9.1907 8.48257L9.47752 8.19738C10.1841 7.49484 10.2507 6.36691 9.63424 5.54348L8.37326 3.85908C7.61028 2.83992 6.13596 2.70529 5.26145 3.57483L3.69185 5.13552C3.25823 5.56668 2.96765 6.12559 3.00289 6.74561C3.09304 8.33182 3.81071 11.7447 7.81536 15.7266C12.0621 19.9492 16.0468 20.117 17.6763 19.9651C18.1917 19.9171 18.6399 19.6546 19.0011 19.2954L20.4217 17.883C21.3806 16.9295 21.1102 15.2949 19.8833 14.628L17.9728 13.5894C17.1672 13.1515 16.1858 13.2801 15.5562 13.9062Z" stroke="#EFEFF0" stroke-width="2" stroke-linecap="round"></path>
+              </svg>
+              <p>+44 7780 466305</p></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <div class="center-wrap">
+      <div class="footer__copyr">© 2023 D&S Bespoke. All Rights Reserved</div>
+    </div>
+  </div>
+</footer>
+<div class="mobile-menu">
+  <div class="mobile-menu__wrap mobile-menu__wrap--top">
+    <div class="center-wrap">
+      <div class="mobile-menu__top"><a class="mobile-menu__logo img-wrap" href="index.html#home">
+          <div><img src="assets/images/svg/Logo.svg" alt=""></div></a>
+        <div class="mobile-menu__close">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M18.75 5.25L5.25 18.75" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M18.75 18.75L5.25 5.25" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+          </svg>
+        </div>
+      </div>
+      <nav class="mobile-menu__nav">
+        <ul class="mobile-menu__nav-list">
+          <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="/about.html">ABOUT US</a></li>
+          <li class="mobile-menu__nav-item mobile-menu__nav-item--drop"><a class="mobile-menu__nav-link" href="/services.html">OUR SERVICES</a>
+            <div class="mobile-menu__drop">
+              <div class="mobile-menu__drop-list"><a class="mobile-menu__drop-link" href="#">Plastic Surgery</a><a class="mobile-menu__drop-link" href="#">Check-Up Programs</a><a class="mobile-menu__drop-link" href="#">Cancer Treatment</a></div>
+            </div>
+          </li>
+          <li class="mobile-menu__nav-item"><a class="mobile-menu__nav-link" href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="mobile-menu__lang"> <a class="mobile-menu__lang-link mobile-menu__lang-link--active" href="#">EN </a><a class="mobile-menu__lang-link" href="#">Ru</a></div>
+      <div class="mobile-menu__btn">
+        <div class="btn">CONTACT US</div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup-wrap" id="thank-you">
+  <div class="popup">
+    <div class="popup__close" onclick="close_popup('thank-you')">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.75 5.25L5.25 18.75" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+        <path d="M18.75 18.75L5.25 5.25" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+      </svg>
+    </div>
+    <div class="popup__inner">
+      <div class="popup__simple-title simple-title simple-title--center">Спасибо!</div>
+      <div class="popup__content content"> 
+        <p>Ваша заявка успешно отправлена.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="popup-wrap" id="before-after">
+  <div class="popup">
+    <div class="popup__close" onclick="close_popup('before-after')">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.75 5.25L5.25 18.75" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+        <path d="M18.75 18.75L5.25 5.25" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+      </svg>
+    </div>
+    <div class="popup__inner">
+      <div class="before-after__slider">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="before-after__slider-item">
+                <div class="img-wrap">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/before-after__slider1.webp" type="image/webp"><img src="assets/images/png/before-after__slider1.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="before-after__slider-title">Lorem Ipsum Dolor Sit Amet</div>
+                <div class="content">
+                  <p>Pellentesque suscipit fringilla libero eu ullamcorper. Cras risus eros, faucibus sit amet augue id, tempus pellentesque eros. In imperdiet tristique tincidunt. Integer lobortis lorem lorem, id accumsan arcu tempor id. Suspendisse vitae accumsan massa. Duis porttitor, mauris et faucibus sollicitudin.</p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="before-after__slider-item">
+                <div class="img-wrap">
+                  <div>
+                    <picture>
+                      <source srcset="assets/images/png/before-after__slider1.webp" type="image/webp"><img src="assets/images/png/treatment-img26.png" alt="">
+                    </picture>
+                  </div>
+                </div>
+                <div class="before-after__slider-title">Lorem Ipsum Dolor Sit Amet</div>
+                <div class="content">
+                  <p>Pellentesque suscipit fringilla libero eu ullamcorper. Cras risus eros, faucibus sit amet augue id, tempus pellentesque eros. In imperdiet tristique tincidunt. Integer lobortis lorem lorem, id accumsan arcu tempor id. Suspendisse vitae accumsan massa. Duis porttitor, mauris et faucibus sollicitudin.</p>
+                  <p>Pellentesque suscipit fringilla libero eu ullamcorper. Cras risus eros, faucibus sit amet augue id, tempus pellentesque eros. In imperdiet tristique tincidunt. Integer lobortis lorem lorem, id accumsan arcu tempor id. Suspendisse vitae accumsan massa. Duis porttitor, mauris et faucibus sollicitudin.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="slider-arrow">
+          <div class="swiper-button-prev">
+            <svg viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M18 8H2M2 8L8 2M2 8L8 14" stroke-width="2" stroke-linecap="square"></path>
+            </svg>
+          </div>
+          <div class="swiper-button-next">
+            <svg viewBox="0 0 19 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M1 8H17M17 8L11 2M17 8L11 14" stroke-width="2" stroke-linecap="square"></path>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <script src="js/app.js?v=1697606052546"></script></body>
+</html>
